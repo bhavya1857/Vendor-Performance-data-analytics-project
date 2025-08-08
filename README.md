@@ -1,8 +1,10 @@
 # Vendor-Performance-data-analytics-project
-Project Overview
+
+# Project Overview
 This is a comprehensive, company-standard data analytics project designed to optimize profitability within the retail and wholesale industry. The project focuses on analyzing vendor performance, inventory turnover, and pricing strategies to enable data-driven decision-making. Utilizing a real-world dataset, this project integrates multiple essential data skills and tools, including SQL, Python, and Power BI, to deliver a complete end-to-end analytical solution.
 
-Business Problem
+
+# Business Problem
 Efficient inventory and sales management are paramount for success in the retail and wholesale sectors. Businesses must actively work to prevent financial losses that can arise from inefficient pricing models, suboptimal inventory turnover rates, and an over-reliance on underperforming vendors.
 
 This analysis is specifically structured to address the following critical business objectives:
@@ -17,7 +19,8 @@ Assess inventory turnover efficiency to minimize holding costs and enhance opera
 
 Investigate the variance in profitability observed between high-performing and low-performing vendors.
 
-Project Workflow
+
+# Project Workflow
 The project adheres to a robust, end-to-end data analytics pipeline, mirroring real-world industry practices:
 
 Data Ingestion and Database Setup:
@@ -28,7 +31,8 @@ SQLite is employed for this project, offering a practical solution, though the m
 
 A dedicated Python script is developed, incorporating logging and well-defined functions, to automate and manage this ingestion process efficiently.
 
-Exploratory Data Analysis (EDA) with SQL:
+
+# Exploratory Data Analysis (EDA) with SQL:
 
 The raw data within the database is thoroughly explored using SQL queries.
 
@@ -36,7 +40,8 @@ This phase aims to deeply understand the data's structure, identify crucial colu
 
 The insights gained here are vital for determining which data points are most pertinent to the core business problem.
 
-Data Aggregation and Cleaning:
+
+# Data Aggregation and Cleaning:
 
 Based on the findings from the EDA, a final, aggregated summary table is meticulously constructed.
 
@@ -44,7 +49,7 @@ This involves joining and cleaning data extracted from multiple source tables.
 
 The consolidated table is designed to contain all necessary information for detailed analytical work, encompassing:
 
-Vendor purchase transactions
+# Vendor purchase transactions
 
 Sales transaction data
 
@@ -52,7 +57,8 @@ Associated freight costs
 
 Actual product pricing information
 
-In-depth Analysis with Python:
+
+# In-depth Analysis with Python:
 
 The prepared aggregated data is retrieved from the database and loaded into a Jupyter Notebook.
 
@@ -60,19 +66,22 @@ Further iterative EDA, advanced data cleaning, and sophisticated analytical tech
 
 The primary goal of this stage is to generate answers for the specific research questions derived from the business problem.
 
-Interactive Dashboarding with Power BI:
+
+# Interactive Dashboarding with Power BI:
 
 Key insights, trends, and visualizations unearthed during the Python analysis are leveraged to create an intuitive and interactive Power BI dashboard.
 
 This dashboard serves as a powerful tool, allowing stakeholders to easily comprehend and explore the project's findings.
 
-Comprehensive Report Writing and Presentation:
+
+# Comprehensive Report Writing and Presentation:
 
 A detailed, comprehensive report is prepared to document the entire project, including the methodology employed, the significant findings, and actionable recommendations.
 
 This report is crucial for effectively presenting the analysis results to clients, management, and other key stakeholders, facilitating informed decision-making.
 
-Data Schema
+
+# Data Schema
 The project utilizes several interconnected tables, each holding specific transactional data. The relationships and contents of these tables were meticulously mapped during the initial exploratory data analysis phase:
 
 begin_inventory: Contains records of inventory levels at the beginning of the reporting period (e.g., start of the year).
